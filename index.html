@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Furniture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Akash Furniture</h1>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Collection</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#showroom">Showroom</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="banner">
+                <div class="banner-bg"></div>
+                <div class="banner-content">
+                    <h2>Modern Living Spaces</h2>
+                    <p>Premium furniture designed for your comfort and style.</p>
+                    <a href="#products" class="btn">View Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Featured Collection</h2>
+            <div class="filters">
+                <input type="text" placeholder="Search products..." id="searchInput">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="living-room">Living Room</option>
+                    <option value="bedroom">Bedroom</option>
+                    <option value="office">Office</option>
+                    <option value="Kitchen">Kitchen</option>
+                </select>
+            </div>
+            <div class="product-list">
+                <a href="sofa/sofagallery.html" class="product-card" data-category="living-room">
+                    <img src="assets/sofa1.jpg" alt="Modern Sofa">
+                    <div class="product-card-content">
+                        <h3>Modern Sofa</h3>
+                        <p>Elegant design meets supreme comfort</p>
+                    </div>
+                </a>
+                <a href="beds/bedsgallery.html" class="product-card" data-category="bedroom">
+                    <img src="assets/bed1.jpg" alt="King Size Bed">
+                    <div class="product-card-content">
+                        <h3>Modern Beds</h3>
+                        <p>Luxury comfort for peaceful nights</p>
+                    </div>
+                </a>
+                <a href="Office Desks/deskgallery.html" class="product-card" data-category="office">
+                    <img src="assets/desk1.jpg" alt="Office Desk">
+                    <div class="product-card-content">
+                        <h3>Office Desks</h3>
+                        <p>Professional workspace solutions</p>
+                    </div>
+                </a>
+                <a href="pantry/pantrygallery.html" class="product-card" data-category="Kitchen">
+                    <img src="assets/pantry1.jpg" alt="Patio Set">
+                    <div class="product-card-content">
+                        <h3>Pantry Sets</h3>
+                        <p>Organized Storage, Freshness Every Day</p>
+                    </div>
+                </a>
+                <a href="mirror tables/mirrorgallery.html" class="product-card" data-category="bedroom">
+                    <img src="assets/mirror1.jpg" alt="Patio Set">
+                    <div class="product-card-content">
+                        <h3>Mirror tables</h3>
+                        <p>Reflecting Style, Elevating Your Space</p>
+                    </div>
+                </a>
+                <a href="cupboards/cupgallery.html" class="product-card" data-category="bedroom">
+                    <img src="assets/cupboard1.jpg" alt="Patio Set">
+                    <div class="product-card-content">
+                        <h3>Modern Cupboards</h3>
+                        <p>Sleek Storage, Modern Living Simplified</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+      <!-- Updated About Section HTML -->
+<section id="about">
+    <div class="about-container">
+        <div class="about-content">
+            <span class="section-subtitle">About Us</span>
+            <h2>Creating Beautiful Spaces Since 1995</h2>
+            <p class="about-description">
+                At Akash Furniture, we combine artisanal craftsmanship with modern design to create 
+                furniture that transforms your space. Every piece tells a story of quality, 
+                comfort, and timeless elegance.
+            </p>
+            
+            <div class="about-features">
+                <div class="feature-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5"></path>
+                    </svg>
+                    <h3>Premium Materials</h3>
+                    <p>Sustainably sourced, carefully selected</p>
+                </div>
+                
+                <div class="feature-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                    </svg>
+                    <h3>Expert Craftsmen</h3>
+                    <p>30+ years of expertise</p>
+                </div>
+                
+                <div class="feature-card">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <h3>Guaranteed Quality</h3>
+                    <p>30-day satisfaction guarantee</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Updated showroom Section HTML -->
+<section id="showroom">
+    <div class="showroom-container">
+        <div class="showroom-content">
+            <div class="showroom-text">
+                <span class="section-subtitle">Our Space</span>
+                <h2>Visit Our Showroom</h2>
+                <p>Experience the artistry of our furniture collection in our carefully curated showroom space.</p>
+                
+                <div class="showroom-details">
+                    <div class="detail-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <h3>Location</h3>
+                            <p>No :301/B,Galle Rd, Massala ,Beruwala.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Saturday: 08:00 AM - 10:00 PM<br>Sunday: 10:30 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://maps.app.goo.gl/95cfVa1xTdfe8qJG9" target="_blank">
+                <button class="map-button" id="showMapBtn">
+                    <span>View on Google Maps</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                </button>
+            </a>
+            </div>
+
+            <div class="showroom-image">
+                <img src="assets/showroom.jpg" alt="Akash Furniture Showroom">
+                <div class="image-overlay"></div>
+            </div>
+        </div>
+
+        <div class="map-modal" id="mapModal">
+            <div class="map-modal-content">
+                <button class="close-modal" id="closeMapBtn">×</button>
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-wrapper">
+        <div class="contact-header">
+            <span class="contact-badge">Contact Us</span>
+            <h2>Get in Touch</h2>
+            <p>Have a question or need assistance? We're here to help you create your perfect space.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info-card">
+                <div class="contact-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Business Hours</h3>
+                            <p>Mon - Fri: 9:00 - 18:00</p>
+                            <p>Weekend: 10:00 - 17:00</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <path d="M22,6 L12,13 L2,6"></path>
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Email Us</h3>
+                            <p>pradeepsamantha534@gmail.com</p>
+                            <p>akashdealwis@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/12DjYnHWP6v/?mibextid=wwXIfr" target="_blank" class="social-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <form class="modern-form" action="https://formspree.io/f/manqbago" method="POST">
+                <div class="input-group">
+                    <div class="form-field">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Full Name</label>
+                        <div class="field-border"></div>
+                    </div>
+                    <div class="form-field">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                        <div class="field-border"></div>
+                    </div>
+                </div>
+            
+                <div class="form-field">
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected></option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Product Support</option>
+                        <option value="custom">Custom Order</option>
+                        <option value="career">Career Opportunity</option>
+                    </select>
+                    <label for="subject">Select Topic</label>
+                    <div class="field-border"></div>
+                </div>
+            
+                <div class="form-field">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Your Message</label>
+                    <div class="field-border"></div>
+                </div>
+            
+                <button type="submit" class="submit-button">
+                    <span>Send Message</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="modern-footer">
+        <div class="footer-grid">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <h2>Akash Furniture</h2>
+                <p>Crafting comfort and style for your perfect living space since 1995.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/12DjYnHWP6v/?mibextid=wwXIfr" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-nav">
+                <h3>Quick Links</h3>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#about">About Us</a>
+                    <a href="#showroom">Showroom</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+    
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <div class="contact-info">
+                    <p>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        No :301/B, Galle Rd, Massala, Beruwala
+                    </p>
+                    <p>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        +94 716 545 642
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 Akash Furniture. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+<script src="script.js"></script>
+<form class="modern-form" action="https://formspree.io/f/manqbago" method="POST"></form>
+
+</body>
+</html>
